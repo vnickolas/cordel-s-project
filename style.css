@@ -10,7 +10,7 @@ header {
     text-align: center;
     margin: 0%;
     padding: 40px;
-    height: 180px;
+    height: 200px;
 }
 header h1 {
     color: aliceblue;
@@ -18,14 +18,15 @@ header h1 {
 }
 header h2 {
     color: aliceblue;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 header p {
     color: aliceblue;
     text-align: right;
-    margin-top: -8px;
-    font-size: 17px;
+    margin-top: -10px;
+    font-size: 20px;
+    padding: 20px;
 }
 main p {
     line-height: 40px;
