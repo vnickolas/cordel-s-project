@@ -9,12 +9,12 @@ header {
     background-color: black;
     text-align: center;
     margin: 0%;
-    padding: 10px;
-    height: 150px;
+    padding: 40px;
+    height: 180px;
 }
 header h1 {
     color: aliceblue;
-    font-size: 45px;
+    font-size: 2.5vw;
 }
 header h2 {
     color: aliceblue;
@@ -25,12 +25,10 @@ header p {
     color: aliceblue;
     text-align: right;
     margin-top: -8px;
-    font-size: 15px;
+    font-size: 17px;
 }
 main p {
-    font-size: 40px;
     line-height: 40px;
-    margin: 15px 0px;
 }
 a {
     text-decoration: none;
@@ -47,12 +45,15 @@ a:hover {
 section p {
     max-width: 800px;
     min-width: 300px;
+    margin: 15px 0px;
+    line-height: 2em;
+    font-size: 2.5vw; /*Coloca os textos adaptáveis a qualquer largura (pc, celular, tablet, etc)*/ 
 }
 .section1 {
-    padding: 15px;
-    height: 100vh;
+    padding: 30px;
     background-image: url(imagens/background002.jpg);
     margin: 0%;
+    box-shadow: inset -8px 8px 60px black;
     
     background-position: center center;
     background-attachment: fixed;
@@ -66,10 +67,8 @@ section p {
     padding: 20px;
 }
 .section2 {
-    border-radius: 5px;
     background-color: white;
-    padding: 10px;
-    line-height: 35px;
+    padding: 30px;
     background-color: black;
 }
 
@@ -80,10 +79,8 @@ section p {
     padding: 20px;
 }
 .section3 {
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
-    line-height: 30px;
+    padding: 30px;
+    box-shadow: inset -8px 8px 60px black;
 
     background-image: url(imagens/background001.jpg);
     background-position: center center;
@@ -97,11 +94,8 @@ section p {
     padding: 20px;
 }
 .section4 {
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px;
-    line-height: 35px;
-    background-color: rgb(0, 0, 0)
+    background-color: black;
+    padding: 30px;
 }
 
 .section4 p {
@@ -111,14 +105,12 @@ section p {
     padding: 20px;
 }
 .section5 {
-    border-radius: 5px;
     background-color: white;
-    padding: 10px;    
+    padding: 30px;    
 
-    height: 100vh;
     background-image: url(imagens/pexels-mehmet-turgut-kirkgoz-14422910.jpg);
     margin: 0%;
-    
+    box-shadow: inset -8px 8px 60px black;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -136,6 +128,6 @@ footer {
     text-align: center;
     color: white;
     padding: 1px;
-    max-width: 1900px;
+    max-width: 2400px;
     min-width: 300px;
 }
